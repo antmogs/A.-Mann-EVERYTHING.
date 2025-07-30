@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>A. Mann EVERYTHING</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>A. Mann EVERYTHING</h1>
+    <p>Landscaping · Power Washing · Gutter Cleaning · Cleanouts · Moving Services</p>
+    <p><strong>Call now:</strong> <a href="tel:2673043927">267-304-3927</a></p>
+    <p>Serving Philadelphia, Bucks County, and surrounding Jersey areas</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <h2>Welcome!</h2>
+    <p>We do it all — from landscaping and powerwashing to attic and garage cleanouts. If you need it done, call A. Mann EVERYTHING.</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 A. Mann EVERYTHING</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Services - A. Mann EVERYTHING</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>Our Services</h1></header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <main>
+    <ul>
+      <li>Landscaping & Lawn Maintenance</li>
+      <li>Power Washing (Homes, Driveways, Patios)</li>
+      <li>Gutter Cleaning</li>
+      <li>Attic & Garage Cleanouts</li>
+      <li>Moving Services</li>
+    </ul>
+  </main>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery - A. Mann EVERYTHING</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>Gallery</h1></header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <main>
+    <div style="display: flex; flex-wrap: wrap;">
+      <img src="images/gallery_1.jpeg" alt="Gallery Image 1" style="width: 45%; margin: 2.5%;">
+      <img src="images/gallery_2.jpeg" alt="Gallery Image 2" style="width: 45%; margin: 2.5%;">
+      <img src="images/gallery_3.jpeg" alt="Gallery Image 3" style="width: 45%; margin: 2.5%;">
+      <img src="images/gallery_4.jpeg" alt="Gallery Image 4" style="width: 45%; margin: 2.5%;">
+      <img src="images/gallery_5.jpeg" alt="Gallery Image 5" style="width: 45%; margin: 2.5%;">
+      <img src="images/gallery_6.jpeg" alt="Gallery Image 6" style="width: 45%; margin: 2.5%;">
+      <img src="images/gallery_7.jpeg" alt="Gallery Image 7" style="width: 45%; margin: 2.5%;">
+      <img src="images/gallery_8.jpeg" alt="Gallery Image 8" style="width: 45%; margin: 2.5%;">
+    </div>
+  </main>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - A. Mann EVERYTHING</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>Contact Us</h1></header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <main>
+    <p><strong>Phone:</strong> <a href="tel:2673043927">267-304-3927</a></p>
+    <p><strong>Email:</strong> <a href="mailto:anthonymogilevich@gmail.com">anthonymogilevich@gmail.com</a></p>
+    <p>Serving Philadelphia, Bucks County, and surrounding Jersey areas</p>
+  </main>
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e9f5e9;
+  color: #1f3d1f;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #a8e6a3;
+  padding: 1em;
+  text-align: center;
+}
+nav {
+  background: #4caf50;
+  padding: 0.5em;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+main {
+  padding: 2em;
+}
+footer {
+  background: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
